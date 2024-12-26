@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* Стили для мобильных устройств */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: #f0f0f0; /* Светлый фон для мобильных */
+        font-size: 14px; /* Меньший шрифт */
+    }
+    
+    .container {
+        padding: 10px; /* Уменьшение отступов */
+    }
+}
+
+/* Стили для планшетов */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        background-color: #ffffff; /* Белый фон для планшетов */
+        font-size: 16px; /* Средний шрифт */
+    }
+    
+    .container {
+        padding: 20px; /* Увеличение отступов */
+    }
+}
+
+/* Стили для десктопов */
+@media screen and (min-width: 1025px) {
+    body {
+        background-color: #e0e0e0; /* Темный фон для десктопов */
+        font-size: 18px; /* Большой шрифт */
+    }
+    
+    .container {
+        padding: 30px; /* Большие отступы */
+    }
+}
+/* Общие стили для всех экранов */
+body { 
+    font-family: Arial, sans-serif; 
+}
+header { 
+    padding: 15px; text-align: center;
+    background-color: black; 
+}
+.image{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+.image-2{
+    margin-top: 40px;
+    height: 250px;
+    width: 250px;
+    float: right;
+}
+ /* Стили для верхней панели навигации */
+.navbar {
+    background-color: black; /* Цвет фона панели */
+    overflow: hidden; /* Скрытие лишнего контента */
+}
+.navbar a {
+    float: left; /* Расположение ссылок слева */
+    display: block; /* Отображение ссылок как блочного элемента */
+}
+.inputs{
+    height: 30px;
+    width: 500px;
+}
+.h{
+    text-align: center;
+}
+.audio{
+    columns: 2 100px;
+    text-align: right;
+}
+.text{  
+    text-align: left;
+    vertical-align: middle;
+}
+.vidio{
+    vertical-align: top;
+}
